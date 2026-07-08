@@ -2,6 +2,9 @@
 # Objetivo:
 Prever variável 'Grade' através do desempenho escolar de alunos (SSC, HSC, Attendance_Percentage)
 
+# Coleta de dados
+- A base de dados foi coletada na plataforma da Kaggle. Trata-se de uma base de dados com informações sobre o desempenho escolar de alunos da Índia. Foram utilizados três variáveis principais (descritas abaixo), sendo 'SSC' e 'HSC' para prever a variável alvo 'grade'.
+
 # Dados da base
 - Student_ID: Id do estudante
 - Name: Nome
@@ -22,7 +25,7 @@ Prever variável 'Grade' através do desempenho escolar de alunos (SSC, HSC, Att
 5. Separação de variáveis: Separação de X e Y, treino e teste, e padronização de dados;
 6. Modelagem e Avaliação: treinamento dos modelos e validação.
 
-# Resultados:
+# Conclusões e resultados:
 Foram escolhidos alguns modelos para fazer a previsão. Random Forest, Árvore de Decisão, XGBoost e SVM, foram treinados com os dados. O modelo de bruto (sem parametrização) 'Random Forest' obteve uma acurácia de 0.23, semelhantemente os modelos de XGBoost e SVM com a mesma acurácia, o modelo de Árvore de Decisão teve umma acurácia mais baixa de 0.17. Foi aplicado parâmetros mas os modelos não conseguiram fazer boas avaliações, na verdade houve queda nas métricas. Apesar de parâmetros e outras técnicas como cross-validation terem sido aplicadas, as previsões foram muito baixas para as classes, não conseguindo discriminá-las bem, o que provavelmente explica que os dados não conseguem explicar a alvo, ou que não havia dados suficientes para isto. 
 
 
