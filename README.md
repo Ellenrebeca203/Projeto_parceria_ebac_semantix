@@ -1,6 +1,6 @@
 ## Projeto_parceria_ebac_semantix
 # Objetivo:
-Prever variável 'Grade' através do desempenho escolar de alunos (SSC, HSC)
+Prever variável 'Grade' através do desempenho escolar de alunos (SSC, HSC, Attendance_Percentage)
 
 # Dados da base
 - Student_ID: Id do estudante
